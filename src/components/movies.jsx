@@ -51,7 +51,7 @@ class Movies extends Component {
           <table className="table table-striped">
             <thead>
               {getMovies().length === 0 ? (
-                ""
+                <tr></tr>
               ) : (
                 <tr>
                   <th scope="col">Title</th>
